@@ -2,6 +2,8 @@
 
 Simple swift based editor for bezier based media timing functions
 
+Here's a video showing a slightly older version: [Preview Video](https://www.dropbox.com/s/dqyp1xuroetdnl1/Timing%20Function%20Editor.mp4?dl=0)
+
 ![Screenshot](Documentation/Screenshot.png)
 
 ## How to use
