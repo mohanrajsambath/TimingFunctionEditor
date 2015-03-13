@@ -21,3 +21,5 @@ Copy & paste the code for the function from the code snippet text field.
 This project depends on my [SwiftGraphics](https://github.com/schwa/SwiftGraphics) framework you'll need to use [Carthage](https://github.com/Carthage/Carthage) to download and build SwiftGraphics. You can install Carthage via [homebrew](http://github.com/Homebrew/homebrew).
 
 	carthage bootstrap
+
+After bootstrapping carthage the project should build normally.
