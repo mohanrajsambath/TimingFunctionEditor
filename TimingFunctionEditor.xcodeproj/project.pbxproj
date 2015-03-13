@@ -12,9 +12,10 @@
 		4535BD271AB25E27005A04A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4535BD261AB25E27005A04A5 /* Images.xcassets */; };
 		4535BD2A1AB25E27005A04A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4535BD281AB25E27005A04A5 /* Main.storyboard */; };
 		4535BD361AB25E28005A04A5 /* TimingFunctionEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4535BD351AB25E28005A04A5 /* TimingFunctionEditorTests.swift */; };
-		4535BD5B1AB25F03005A04A5 /* SwiftGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4535BD4B1AB25EE9005A04A5 /* SwiftGraphics.framework */; };
 		4535BD5D1AB25F1F005A04A5 /* BezierCurveEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4535BD5C1AB25F1F005A04A5 /* BezierCurveEditor.swift */; };
 		4535BD631AB2637F005A04A5 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4535BD621AB2637F005A04A5 /* PreviewView.swift */; };
+		456C700C1AB3432800F1F641 /* SwiftGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456C700B1AB3432800F1F641 /* SwiftGraphics.framework */; };
+		456C700E1AB3435200F1F641 /* SwiftGraphics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 456C700B1AB3432800F1F641 /* SwiftGraphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,63 +26,20 @@
 			remoteGlobalIDString = 4535BD1C1AB25E27005A04A5;
 			remoteInfo = TimingFunctionEditor;
 		};
-		4535BD4A1AB25EE9005A04A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 454D550719AA5CE6000E3EB3;
-			remoteInfo = SwiftGraphics_OSX;
-		};
-		4535BD4C1AB25EE9005A04A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45DA4AC419AA62A800133F32;
-			remoteInfo = SwiftGraphics_iOS;
-		};
-		4535BD4E1AB25EE9005A04A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 454FE66219C77031002E4DEF;
-			remoteInfo = SwiftGraphics_OSX_Playground;
-		};
-		4535BD501AB25EE9005A04A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45CFDC9E1A61CE3500053F96;
-			remoteInfo = SwiftGraphics_OSX_UITest;
-		};
-		4535BD521AB25EE9005A04A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 455AC2C31A76130B00BCC373;
-			remoteInfo = SwiftGraphics_OSX_Scratch;
-		};
-		4535BD541AB25EE9005A04A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 454D551219AA5CE6000E3EB3;
-			remoteInfo = SwiftGraphics_OSX_UnitTests;
-		};
-		4535BD561AB25EE9005A04A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 451D29091A8A911F00209FE3;
-			remoteInfo = SwiftGraphics_iOS_UnitTests;
-		};
-		4535BD591AB25EFC005A04A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 454D550619AA5CE6000E3EB3;
-			remoteInfo = SwiftGraphics_OSX;
-		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		456C700D1AB3434600F1F641 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				456C700E1AB3435200F1F641 /* SwiftGraphics.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4535BD1D1AB25E27005A04A5 /* TimingFunctionEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimingFunctionEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,9 +51,9 @@
 		4535BD2F1AB25E28005A04A5 /* TimingFunctionEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimingFunctionEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4535BD341AB25E28005A04A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4535BD351AB25E28005A04A5 /* TimingFunctionEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingFunctionEditorTests.swift; sourceTree = "<group>"; };
-		4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftGraphics.xcodeproj; path = ../../Development/Source/Projects/SwiftGraphics/SwiftGraphics.xcodeproj; sourceTree = "<group>"; };
 		4535BD5C1AB25F1F005A04A5 /* BezierCurveEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierCurveEditor.swift; sourceTree = "<group>"; };
 		4535BD621AB2637F005A04A5 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		456C700B1AB3432800F1F641 /* SwiftGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGraphics.framework; path = Carthage/Build/Mac/SwiftGraphics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4535BD5B1AB25F03005A04A5 /* SwiftGraphics.framework in Frameworks */,
+				456C700C1AB3432800F1F641 /* SwiftGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,24 +133,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4535BD401AB25EE9005A04A5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4535BD4B1AB25EE9005A04A5 /* SwiftGraphics.framework */,
-				4535BD4D1AB25EE9005A04A5 /* SwiftGraphics.framework */,
-				4535BD4F1AB25EE9005A04A5 /* SwiftGraphicsPlayground.framework */,
-				4535BD511AB25EE9005A04A5 /* SwiftGraphics_OSX_UITest.app */,
-				4535BD531AB25EE9005A04A5 /* SwiftGraphics_OSX_Scratch.app */,
-				4535BD551AB25EE9005A04A5 /* SwiftGraphics_OSX_UnitTests.xctest */,
-				4535BD571AB25EE9005A04A5 /* SwiftGraphics_iOS_UnitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4535BD581AB25EED005A04A5 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
-				4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */,
+				456C700B1AB3432800F1F641 /* SwiftGraphics.framework */,
 			);
 			name = Externals;
 			sourceTree = "<group>";
@@ -207,11 +151,11 @@
 				4535BD191AB25E27005A04A5 /* Sources */,
 				4535BD1A1AB25E27005A04A5 /* Frameworks */,
 				4535BD1B1AB25E27005A04A5 /* Resources */,
+				456C700D1AB3434600F1F641 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4535BD5A1AB25EFC005A04A5 /* PBXTargetDependency */,
 			);
 			name = TimingFunctionEditor;
 			productName = TimingFunctionEditor;
@@ -265,12 +209,6 @@
 			mainGroup = 4535BD141AB25E27005A04A5;
 			productRefGroup = 4535BD1E1AB25E27005A04A5 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4535BD401AB25EE9005A04A5 /* Products */;
-					ProjectRef = 4535BD3F1AB25EE9005A04A5 /* SwiftGraphics.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4535BD1C1AB25E27005A04A5 /* TimingFunctionEditor */,
@@ -278,58 +216,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		4535BD4B1AB25EE9005A04A5 /* SwiftGraphics.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftGraphics.framework;
-			remoteRef = 4535BD4A1AB25EE9005A04A5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4535BD4D1AB25EE9005A04A5 /* SwiftGraphics.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftGraphics.framework;
-			remoteRef = 4535BD4C1AB25EE9005A04A5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4535BD4F1AB25EE9005A04A5 /* SwiftGraphicsPlayground.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftGraphicsPlayground.framework;
-			remoteRef = 4535BD4E1AB25EE9005A04A5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4535BD511AB25EE9005A04A5 /* SwiftGraphics_OSX_UITest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwiftGraphics_OSX_UITest.app;
-			remoteRef = 4535BD501AB25EE9005A04A5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4535BD531AB25EE9005A04A5 /* SwiftGraphics_OSX_Scratch.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwiftGraphics_OSX_Scratch.app;
-			remoteRef = 4535BD521AB25EE9005A04A5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4535BD551AB25EE9005A04A5 /* SwiftGraphics_OSX_UnitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftGraphics_OSX_UnitTests.xctest;
-			remoteRef = 4535BD541AB25EE9005A04A5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4535BD571AB25EE9005A04A5 /* SwiftGraphics_iOS_UnitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftGraphics_iOS_UnitTests.xctest;
-			remoteRef = 4535BD561AB25EE9005A04A5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4535BD1B1AB25E27005A04A5 /* Resources */ = {
@@ -377,11 +263,6 @@
 			isa = PBXTargetDependency;
 			target = 4535BD1C1AB25E27005A04A5 /* TimingFunctionEditor */;
 			targetProxy = 4535BD301AB25E28005A04A5 /* PBXContainerItemProxy */;
-		};
-		4535BD5A1AB25EFC005A04A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftGraphics_OSX;
-			targetProxy = 4535BD591AB25EFC005A04A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -482,6 +363,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = TimingFunctionEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,6 +378,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = TimingFunctionEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
